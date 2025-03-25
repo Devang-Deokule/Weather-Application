@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected JSONObject doInBackground(String... params) {
             String city = params[0];
-            String apiKey = "11506aee7833774802e5830c8469f8b3"; // Replace with your OpenWeatherMap API key
+            String apiKey = "API key"; // Replace 'API key' with your OpenWeatherMap API key
             String apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
             try {
                 URL url = new URL(apiUrl);
